@@ -12,8 +12,28 @@ public class Demo1_Map {
 //        demo6();
 //        demo7();
 //        demo8();
+//        demo9();
 
 
+    }
+
+    private static void demo9() {
+        /*
+        *
+        * HashMap和Hashtable的区别
+        * 共同点：
+        * 底层都是hash算法，都是双列集合
+        * 区别：
+        * 1. HashMap是线程不安全的，效率高，在jdk1.2版本之后才优化出现的
+        *   Hashtable是现成安全的，效率低，在jdk1.0版本就出现了
+        * 2. HashMap可以存储null键以及null值
+        *   Hashtable不可以存储null键和值
+        * */
+        Hashtable<String, Integer> ht = new Hashtable<>();
+        ht.put("fuck", 1);
+        /*
+        * ht.put(null, null) is error!
+        * */
     }
 
     private static void demo8() {

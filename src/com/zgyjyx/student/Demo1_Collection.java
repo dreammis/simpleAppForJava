@@ -13,6 +13,10 @@ public class Demo1_Collection {
 //        removeElements();
 //        array2Collection();
 //        collection2Array();
+        twoGroupArray();
+    }
+
+    private static void twoGroupArray() {
         /*
         * 二维数组
         *
