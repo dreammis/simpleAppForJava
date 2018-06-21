@@ -1,12 +1,15 @@
-public class Employee {
+import java.io.*;
+
+public class Employee{
     String name;
     int age;
     String designation;
     double salary;
-
+    // Employee 类的构造器
     public Employee(String name){
         this.name = name;
     }
+    // 设置age的值
     public void empAge(int empAge){
         age =  empAge;
     }
@@ -26,4 +29,3 @@ public class Employee {
         System.out.println("薪水:" + salary);
     }
 }
-
