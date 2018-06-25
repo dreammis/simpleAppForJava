@@ -1,10 +1,65 @@
 package com.pookz.exception;
 
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.net.ServerSocket;
+import java.util.Scanner;
+
 public class Demo1_Exception {
     public static void main(String[] args) {
 //        demo1();
 //        demo2();
+//        demo3();
+//        demo4();
+
+
+    }
+
+    private static void demo4() {
+        /*
+        * 键盘录入int类型整数，对其二进制表现
+        * 如果录入过大给予提示
+        * 如果是小数，给予提示
+        * 如果是其他非法字符给予提示
+        * Java的异常写成这个样子也是醉了
+        *
+        * */
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Type a int number: ");
+        while (sc.hasNext()){
+            while(true){
+                String x = sc.nextLine();
+                try{
+                    int z = Integer.parseInt(x);
+                    System.out.println(Integer.toBinaryString(z));
+                    break;
+
+                }catch (Exception e){
+                    try{
+                        new BigInteger(x);
+                        System.out.println("录入的是过大的整数");
+                        break;
+                    }catch (Exception e2){
+                        try {
+                            new BigDecimal(x);
+                            System.out.println("录入的是小数");
+                            break;
+                        }catch (Exception e3){
+                            System.out.println("你tm输入的不是个数吧！");
+                        }
+
+                    }
+
+                }
+            }
+
+
+        }
+    }
+
+    private static void demo3() {
         /*
         *
         * 自定义异常
