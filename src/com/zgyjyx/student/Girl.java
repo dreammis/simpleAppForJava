@@ -1,8 +1,9 @@
 package com.zgyjyx.student;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Girl implements Comparable<Girl>{
+public class Girl implements Comparable<Girl>, Serializable{
     private String name;
     private int age;
 
