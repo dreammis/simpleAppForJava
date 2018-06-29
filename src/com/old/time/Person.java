@@ -1,3 +1,5 @@
+package com.old.time;
+
 public class Person {
         private String name;
         private int age;
@@ -19,9 +21,4 @@ public class Person {
         System.out.println(xiaohong.name);
         System.out.println(xiaohong.age);
     }
-
-
-
-
-
 }

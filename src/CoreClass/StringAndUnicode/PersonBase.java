@@ -61,7 +61,7 @@ public class PersonBase implements Comparable<PersonBase>{
 
     @Override
     public String toString() {
-        return "Person("+ this.name + ","+this.age +")";
+        return "com.old.time.Person("+ this.name + ","+this.age +")";
     }
 //    public int compareTo(PersonBase p){
 //        return 0;

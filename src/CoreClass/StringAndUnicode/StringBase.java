@@ -14,7 +14,7 @@ public class StringBase {
         char [] cs = s.toCharArray();
         System.out.println(cs);
 
-        String qq = "Hello, World!";
+        String qq = "Hello, com.old.time.World!";
         System.out.printf(qq);
         String sub = qq.substring(7);
         System.out.println(sub);

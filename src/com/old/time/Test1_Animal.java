@@ -1,3 +1,5 @@
+package com.old.time;
+
 public class Test1_Animal {
     public static void main(String[] args) {
         Cat c = new Cat("liu", 13);
@@ -54,13 +56,13 @@ class Cat extends Animal implements  train{
     }
 
     public void eat(){
-        System.out.println("Cat eat!");
+        System.out.println("com.old.time.Cat eat!");
     }
     public void sleep(){
-        System.out.println("Cat sleep!");
+        System.out.println("com.old.time.Cat sleep!");
     }
     public void jump(){
-        System.out.println("Cat can jump!");
+        System.out.println("com.old.time.Cat can jump!");
     }
 }
 
@@ -72,11 +74,11 @@ class Dog extends Animal{
 
     @Override
     public void eat() {
-        System.out.println("Dog eat!");
+        System.out.println("com.old.time.Dog eat!");
     }
 
     @Override
     public void sleep() {
-        System.out.println("Dog sleep!");
+        System.out.println("com.old.time.Dog sleep!");
     }
 }

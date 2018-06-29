@@ -1,11 +1,10 @@
-import java.lang.reflect.Array;
-import com.zgyjyx.student.*;
+package com.old.time;
 
 public class one21 {
     public static void main(String[] args) {
         int [] arr = {1,2,3,4, 0, 9, 10, 8, 20, 11};
         System.out.println(ArrayTool.getMax(arr));
-//        ArrayTool.getArray(arr);
+//        com.old.time.ArrayTool.getArray(arr);
 
 
         ArrayTool.reverseArray(arr);

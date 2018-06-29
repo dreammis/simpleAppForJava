@@ -25,8 +25,8 @@ public class Person {
 //        if (this==o){
 //            return true;
 //        }
-//        if (o instanceof Person){
-//            Person p = (Person) o;
+//        if (o instanceof com.old.time.Person){
+//            com.old.time.Person p = (com.old.time.Person) o;
 ////            return (p.name == this.name || p.name != null && p.name.equals(this.name)) && p.age == this.age;
 //              return Objects.equals(p.name, this.name) && p.age ==this.age;
 //        }

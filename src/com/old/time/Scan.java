@@ -1,3 +1,5 @@
+package com.old.time;
+
 import java.util.Scanner;
 
 public class Scan {

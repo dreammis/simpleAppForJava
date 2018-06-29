@@ -1,3 +1,5 @@
+package com.old.time;
+
 public class eq {
     // 子类可见
     public String name;

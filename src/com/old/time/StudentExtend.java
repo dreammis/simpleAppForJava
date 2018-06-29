@@ -1,3 +1,5 @@
+package com.old.time;
+
 public class StudentExtend extends PersonExtend {
     private int score;
     public void setScore(int score){

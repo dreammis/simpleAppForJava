@@ -1,3 +1,5 @@
+package com.old.time;
+
 public class HelloExtend {
     public static void main(String[] args) {
         StudentExtend s1 = new StudentExtend("liuxiaohu");

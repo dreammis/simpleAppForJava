@@ -1,3 +1,5 @@
+package com.old.time;
+
 public class eqq {
     private static double salary;
     public  static final String DEPARTMENT = "开发人员";

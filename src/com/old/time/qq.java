@@ -1,3 +1,5 @@
+package com.old.time;
+
 class FruitJuice {
     enum FreshJuiceSize{SMALL, QQQ, LARGE}
     FreshJuiceSize size;

@@ -1,5 +1,5 @@
- /*
-  *ArrayTool
+package com.old.time; /*
+  *com.old.time.ArrayTool
   * @author liu
   * @ version v1.0
   * */

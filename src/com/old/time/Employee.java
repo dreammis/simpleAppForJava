@@ -1,3 +1,5 @@
+package com.old.time;
+
 import java.io.*;
 
 public class Employee{
@@ -5,7 +7,7 @@ public class Employee{
     int age;
     String designation;
     double salary;
-    // Employee 类的构造器
+    // com.old.time.Employee 类的构造器
     public Employee(String name){
         this.name = name;
     }

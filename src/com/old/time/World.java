@@ -1,4 +1,4 @@
-//public class World {
+package com.old.time;//public class com.old.time.World {
 //    public static void main(String[] args){
 //        System.out.println("what fuck");
 //    }
