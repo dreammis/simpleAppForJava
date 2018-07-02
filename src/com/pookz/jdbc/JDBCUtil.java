@@ -15,8 +15,8 @@ public class JDBCUtil {
             /*
             * 这里使用类加载器加载properties文件
             * */
-            //prop.load(new FileInputStream("src/jdbc.properties"));
-            prop.load(JDBCUtil.class.getClassLoader().getResourceAsStream("jdbc.properties"));
+            prop.load(new FileInputStream("src/jdbc.properties"));
+//            prop.load(JDBCUtil.class.getClassLoader().getResourceAsStream("jdbc.properties"));
             url = (String)prop.get("jdbcUrl");
             driverClass = (String)prop.get("driverClass");
         } catch (IOException e) {
@@ -39,6 +39,11 @@ public class JDBCUtil {
         closeConn(conn);
         closeSt(st);
         closeRs(rs);
+    }
+
+    public static void release(Connection conn, Statement st){
+        closeConn(conn);
+        closeSt(st);
     }
 
 
