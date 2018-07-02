@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+读取xml的两种方式
+1. DOM document object model
+dom的方式是，将xml文档所有内容读取到内存中，形成一个树状结构
+整个文档称为document， 属性对应的是Attribute
+所有元素的节点对应的Element对象，文本内容称之为text
+所有对象的节点叫做node
+
+对于大文档，需要读取到内存所以会效率不高，占用内存
+可以增删改查
+
+2. SAX simple API for XML
+基于事件驱动，读取一行，解析一行
+
+不占用内存
+只能查询
+-->
+<!DOCTYPE stus SYSTEM "stus.dtd">
+<stus>
+    <stu id="10086">
+        <name>Loos</name>
+        <age>13</age>
+        <school id="10">
+            <school_name>heaven</school_name>
+        </school>
+    </stu>
+    <stu id="10083">
+        <name>Looq</name>
+        <age>22</age>
+        <school id="12">
+            <school_name>god</school_name>
+        </school>
+    </stu>
+</stus>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT stus (stu)>
+<!ELEMENT stu (name,age,school)>
+<!ATTLIST stu id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT school (school_name)>
+<!ATTLIST school id CDATA #REQUIRED>
+<!ELEMENT school_name (#PCDATA)>
