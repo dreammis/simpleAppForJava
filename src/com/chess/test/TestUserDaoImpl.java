@@ -2,7 +2,7 @@ package com.chess.test;
 
 import com.chess.dao.UserDao;
 import com.chess.dao.impl.UserDaoImpl;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class TestUserDaoImpl {
 

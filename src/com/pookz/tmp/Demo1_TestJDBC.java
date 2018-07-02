@@ -1,7 +1,7 @@
 package com.pookz.tmp;
 
 import com.pookz.jdbc.JDBCUtil;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
